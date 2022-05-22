@@ -23,7 +23,7 @@ public class Bird extends WorldObject {
     @Override
     public void paint(Graphics ig) {
         //super.paint(ig);
-        ig.setColor(Color.RED);
+        ig.setColor(Color.BLACK);
         ig.drawString("B:" + name, x, 410 - h);
     }
 }

@@ -13,7 +13,7 @@ public class Fox extends WorldObject {
     @Override
     public void paint(Graphics ig) {
         //super.paint(ig);
-        ig.setColor(Color.BLACK);
+        ig.setColor(Color.ORANGE);
         ig.drawString("F:" + name, x, 410 - h);
     }
 
